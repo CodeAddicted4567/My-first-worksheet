@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text changes</title>
+    <link rel="stylesheet" href="changes.css">
+    <script src="DOM.js" onload="alert('!!Examples of DOM manipulations!!')">
+    
+       
+    </script>
+</head>
+<body>
+    <div>
+        <h1 align="center" id="txt1" >Let's try it.</h1>
+        <h2 align="center" id="par" >Do this.</h2>
+       
+    </div>
+    <div>
+        <center>
+            <button style="padding: 35px;background-color: lightskyblue" onclick="textChange()">click</button>
+            <button style="padding: 35px;background-color: navajowhite" onclick="changeCol()">click</button>
+            <button style="padding: 35px;background-color: lightcoral" onclick="content()">click</button>
+            <button style="padding: 35px;background-color: lightpink" onclick="noti()">click</button>
+            <p class="change"></p>
+        </center>
+    </div>
+    <div class="set">
+        <div class="myStyle">
+            <button onclick="fntCgn()">Change</button>
+            <p id="myDiv">The examples of classlists</p>
+        </div>
+        <div class="pics">
+            <center>
+            <img src="sss.jpg" height="300px" width="500px"
+              alt="Digital arts">
+            <button onclick="picnge()">change pics</button>
+            <p onmouseover="picnge1()" id="els">Drag here</p>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

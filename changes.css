@@ -1,0 +1,20 @@
+.myStyle{
+    font-weight: bold;
+    color: brown;
+    font-size: 15pt;
+    
+}
+.myStyle2{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 25pt;
+    transition-duration: 0.75s;
+}
+.pics{
+   /* background: url("pic1.jpg"); */
+   padding: 32px;
+}
+.set{
+    flex:auto;
+}
